@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maze</title>
+    <link href="maze.css" rel="stylesheet">
+</head>
+<body>
+<section class="main">
+<section class="content">
+    <p><b>Введите размерность поля и нажмите "Старт"</b></p>
+    <p><b>Количество ячеек по вертикали:</b>
+        <input id='inpX' type="text" size="4">
+    </p>
+    <p><b>Количество ячеек по горизонтали:</b>
+        <input id='inpY' type="text" size="4">
+    </p>
+    <button type="button" id="start"> Start</button>
+    <p><b>Установите кликом позицию 'Start'и 'Finish', затем можно изменить стен.</b></p>
+
+    <button type="button" id="find"> Find finish</button>
+</section>
+<section class="field">
+    <canvas  width="0" height="0" id="canvas"></canvas>
+</section>
+</section>
+<script type="text/javascript" src="maze.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    margin: 3px;
+    padding: 0;
+}
+
+canvas {
+
+    background: #008B8B;
+}
+.content{
+    margin-top: 20px;
+    display: flex;
+    /*justify-content: space-around;*/
+    flex-direction: column;
+    height: 150px;
+    width: 320px;
+}
+
+button {
+    height: 50px;
+    font-size: 30px;
+
+}
+.field{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left:auto;
+    display: flex;
+    justify-content:center;
+}
+.main{
+    display: flex;
+    justify-content:flex-start;
+
+}
