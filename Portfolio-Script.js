@@ -28,12 +28,6 @@
             nameOfWork: 'Квадратики',
             path: "./runningSquares/index.html",
         },
-        tickTackToe: {
-            name: 'tickTackToe',
-            description: '',
-            nameOfWork: 'Крестики нолики',
-            path: "",
-        },
     };
     const width = 387;
     const list = document.querySelector('ul');
