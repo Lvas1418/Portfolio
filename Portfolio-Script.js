@@ -38,7 +38,7 @@
     const width = 387;
     const list = document.querySelector('ul');
     let listElems = document.querySelectorAll('li');
-    let position = 0; // текущий сдвиг влево
+    let position = 0;
     let frame = document.getElementById('frame');
     const rightArrow = document.getElementById('rightArrow');
     const leftArrow = document.getElementById('leftArrow');
