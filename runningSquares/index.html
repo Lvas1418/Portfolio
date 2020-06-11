@@ -1,15 +1,22 @@
 <html>
-  <head>
+<head>
     <title> Running squares </title>
     <link href="styles.css" rel="stylesheet">
-  </head>
-  <body>
-  <section class="content">
-    <button type="button" id="start"> Start </button>
-    <button type="button" id="stop"> Stop </button>
-    <span> Score: <span id="score"> 0 </span> </span>
-    <canvas width="640" height="480" id="canvas"></canvas>
-  </section>
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+</head>
+<body>
+
+<section class="container">
+
+        <button OnClick="game.startGame();"> Start</button>
+        <button OnClick="game.stopGame();"> Stop</button>
+        <span> Score: <span id="score"> 0 </span> </span>
+
+    <canvas width="640" height="480" id="canvas" OnClick="game.clickOnCanvas(event,_canvas);"></canvas>
+</section>
+<script type="text/javascript" src="squaresConstructor.js"></script>
+<script type="text/javascript" src="squaresCreater.js"></script>
+<script type="text/javascript" src="animate.js"></script>
+<script type="text/javascript" src="canvas.js"></script>
+<script type="text/javascript" src="controller.js"></script>
+</body>
 </html>
